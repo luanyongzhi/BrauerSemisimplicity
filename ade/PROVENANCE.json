@@ -1,0 +1,151 @@
+{
+  "scope": "Reproducible finite ADE inputs. Structural arguments remain in the accompanying paper.",
+  "archived_research_sources": "Author-supplied research companion, round17 nested ADE code; E6 independent checker from round11; reviewed replay copies supplied with the 1114 manuscript.",
+  "research_code_license": "No explicit license accompanied the author research scripts. No new license is assigned here; the authors should choose one before publication. CHEVIE has its own retained MIT license.",
+  "chevie": {
+    "upstream": "https://github.com/jmichel7/Chevie.jl",
+    "license": "code/CHEVIE_LICENSE",
+    "files": [
+      "weyle6.jl",
+      "weyle7.jl",
+      "weyle8.jl"
+    ],
+    "recorded_e7_commit": "1e1095d8ae8a860b4f94accba5227e16f807f93d",
+    "note": "All three included byte sequences are pinned by SHA256 below. The archived explicit commit metadata names E7; no unsupported common commit is claimed for E6/E8."
+  },
+  "files": [
+    {
+      "file": "code/weyle6.jl",
+      "source_name": "weyle6.jl",
+      "source_sha256": "c8296e8aea6f67e6e3d0314f1fa5072eb3ac51c5ade9b08dfdaa09080626afab",
+      "distributed_sha256": "c8296e8aea6f67e6e3d0314f1fa5072eb3ac51c5ade9b08dfdaa09080626afab",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/weyle7.jl",
+      "source_name": "weyle7.jl",
+      "source_sha256": "e04ff1dd10ad294e59900b685ac8a1630122d8d026b895164ea12a537a5c4f4e",
+      "distributed_sha256": "e04ff1dd10ad294e59900b685ac8a1630122d8d026b895164ea12a537a5c4f4e",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/weyle8.jl",
+      "source_name": "weyle8.jl",
+      "source_sha256": "e80df7b352f24b9c204c26c9718ad4c0aeac0248f92ac2b4e6a38c19648d27d0",
+      "distributed_sha256": "e80df7b352f24b9c204c26c9718ad4c0aeac0248f92ac2b4e6a38c19648d27d0",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/CHEVIE_LICENSE",
+      "source_name": "CHEVIE_LICENSE",
+      "source_sha256": "5301a21a93bd32deb679c391f764d3ff28e2c9a9a24eec90dbf25a799d11587d",
+      "distributed_sha256": "5301a21a93bd32deb679c391f764d3ff28e2c9a9a24eec90dbf25a799d11587d",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/e7_singleton.py",
+      "source_name": "e7_singleton.py",
+      "source_sha256": "3c9babeb69c2a46b8229ef07ed89c3e2af32ce7f9f941cb667ef512d44b48168",
+      "distributed_sha256": "3c9babeb69c2a46b8229ef07ed89c3e2af32ce7f9f941cb667ef512d44b48168",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/e7_fusion_check.py",
+      "source_name": "e7_fusion_check.py",
+      "source_sha256": "f205e31a78de7a0da957ec30b8ebf2b5ae4e3ae3b3a8cd1f20ccfbd6b1bfab3c",
+      "distributed_sha256": "f205e31a78de7a0da957ec30b8ebf2b5ae4e3ae3b3a8cd1f20ccfbd6b1bfab3c",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/e7_pair_branching.py",
+      "source_name": "e7_pair_branching.py",
+      "source_sha256": "6036727409e14e6b8dae4addf1ad434071b9fb5dee36ae65c2e11382acd6462e",
+      "distributed_sha256": "6036727409e14e6b8dae4addf1ad434071b9fb5dee36ae65c2e11382acd6462e",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/e7_higher_branching.py",
+      "source_name": "e7_higher_branching.py",
+      "source_sha256": "50ac31f0c079e01539034b7dcad41343bb5a100254676abb490aaa4a774641dd",
+      "distributed_sha256": "50ac31f0c079e01539034b7dcad41343bb5a100254676abb490aaa4a774641dd",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/e8_singleton.py",
+      "source_name": "e8_singleton.py",
+      "source_sha256": "f4050d6454169634a8141c03e44787a77ef2405c104c17d96bb5f2a566b21120",
+      "distributed_sha256": "f4050d6454169634a8141c03e44787a77ef2405c104c17d96bb5f2a566b21120",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/e8_pair_branching.py",
+      "source_name": "e8_pair_branching.py",
+      "source_sha256": "5a8f8d38a077b18d6dc9c96e043e54bb3fab69ddd052efc3d0b558ad49a12ab1",
+      "distributed_sha256": "5a8f8d38a077b18d6dc9c96e043e54bb3fab69ddd052efc3d0b558ad49a12ab1",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/e8_four_branching.py",
+      "source_name": "e8_four_branching.py",
+      "source_sha256": "9801a806e8398ff8686c00191a0d6770b3158cf512d50da7ee2e621b9dede018",
+      "distributed_sha256": "9801a806e8398ff8686c00191a0d6770b3158cf512d50da7ee2e621b9dede018",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/e8_final_screen.py",
+      "source_name": "e8_final_screen.py",
+      "source_sha256": "0d8c9da3681d5a3e330f00f359488da9721507f45990adab0ab688e9b674ea8f",
+      "distributed_sha256": "0d8c9da3681d5a3e330f00f359488da9721507f45990adab0ab688e9b674ea8f",
+      "adaptations": "Unchanged algorithm and source."
+    },
+    {
+      "file": "code/e7_pair_sign.py",
+      "source_name": "e7_pair_sign.py",
+      "source_sha256": "c3e192b9da7c94a3d0295e8f69c24dfb1c7340ff78dcddd372b268f17f0d11a5",
+      "distributed_sha256": "53db6ba219ff93e26f132d22070b64ab04ce8ae5518aa530364b1a94c515ecb0",
+      "adaptations": "Omit optional dense matrix output. Standard module already uses the documented Sage GF(p) rank adapter; geometry and entries unchanged."
+    },
+    {
+      "file": "code/e7_four_trivial.py",
+      "source_name": "e7_four_trivial.py",
+      "source_sha256": "fbc9149e782738ade9a5b09785714bdd3395827314ec4e6d5c9f9015f82cbe4a",
+      "distributed_sha256": "9972e6fa85ddc9d494d0d2f4b6218f96e3800f7cb3596c4b20f34b0657e53698",
+      "adaptations": "Omit optional dense matrix output. Standard module already uses the documented Sage GF(p) rank adapter; geometry and entries unchanged."
+    },
+    {
+      "file": "code/e7_pair_standard_sage.py",
+      "source_name": "e7_pair_standard_sage.py",
+      "source_sha256": "2d8e4437bc820203233249279990a5afa32a9d6a3af7a0dc84252b076bd2c11e",
+      "distributed_sha256": "7a338e879aea1764572942995133b56e86107fe7303a698f391beff033b954fe",
+      "adaptations": "Omit optional dense matrix output. Standard module already uses the documented Sage GF(p) rank adapter; geometry and entries unchanged."
+    },
+    {
+      "file": "code/e6_spectrum.py",
+      "source_name": "check_e6_spectrum.py",
+      "source_sha256": "3336f2edc281668c2078e2264685f667ac55e7f5b81b559fd98b62ebde938af4",
+      "distributed_sha256": "493987c6495a2cd3faf78c84d7f543106acd5322e26542879c8a626e137b1a04",
+      "adaptations": "Change exact-rank backend from python-flint fmpz_mat to Sage QQ matrix.rank; use shared pinned source path; remove historical-result comparison. All geometric constructors, polynomial relations, ranks, jet and degree-exhaustion checks retained."
+    },
+    {
+      "file": "code/e8_annihilator.py",
+      "source_name": "annihilator_check.py",
+      "source_sha256": "6edb2b27894d5c7f2d437e13ba49fd328532406e68cbcf9667833e07633b6a87",
+      "distributed_sha256": "d9d8467feaf573142b088ec47028270545d0bc1314e971299f582ad595e40f99",
+      "adaptations": "Keep E8 geometry, character traces and four projector certificates; remove all unrelated Type-C code/imports/output and host-path/temp-copy wrapper. Drop unsupported success flag claiming the whole algebraic reduction. Output only regenerated E8 certificates in scratch."
+    },
+    {
+      "file": "code/e8_relations.py",
+      "source_name": "verify_e8_relations.py",
+      "source_sha256": "301c6c55c0c92b83be3e39d5eb4bd9db3ac72a0f89f8119d9cea91b94eaeb530",
+      "distributed_sha256": "b948652832276d746dcf6f83933b516ebf6b265128d7f67b0c3ff653befc470a",
+      "adaptations": "Reuse the retained E8 geometry prefix rather than including a duplicate mixed E8/Type-C upload. Keep every bridge, formal relation and root-conjugation assertion. Relative scratch output only."
+    },
+    {
+      "file": "code/e8_exact_inputs.py",
+      "source_name": "exact_inputs.py",
+      "source_sha256": "e63cdcd6c193d551e55f27460f08b8089daf3abce493754fa71814abbf9f478a",
+      "distributed_sha256": "4646b0debf503332a4690fc5484fd292966b3d28b0b9b473b61604f0cc7f2826",
+      "adaptations": "Remove only temporary-copy/host wrappers; runner already isolates source and outputs. Geometric constructors execute via imports and all Python-integer assertions remain."
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "e6": {
+    "singleton_bad_set": [
+      -20,
+      -14,
+      -12,
+      -8,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "singleton_factorizations": [
+      {
+        "-20": 1,
+        "-2": 20,
+        "4": 15
+      },
+      {
+        "-14": 6,
+        "-8": 20,
+        "-2": 30,
+        "1": 64,
+        "4": 60
+      },
+      {
+        "-12": 20,
+        "-6": 15,
+        "-3": 64,
+        "0": 84,
+        "2": 81,
+        "6": 60
+      },
+      {
+        "-8": 45,
+        "-5": 64,
+        "0": 81,
+        "4": 170
+      },
+      {
+        "-8": 30,
+        "-2": 60,
+        "4": 90
+      },
+      {
+        "-8": 64,
+        "-5": 60,
+        "-3": 81,
+        "1": 230,
+        "5": 81,
+        "7": 60
+      },
+      {
+        "-6": 81,
+        "-2": 110,
+        "2": 81,
+        "4": 24,
+        "7": 64
+      },
+      {
+        "-8": 24,
+        "-2": 60,
+        "2": 81,
+        "10": 15
+      },
+      {
+        "-4": 170,
+        "2": 60,
+        "5": 64,
+        "8": 30
+      },
+      {
+        "-4": 81,
+        "1": 64,
+        "4": 15,
+        "10": 20
+      },
+      {
+        "-2": 30,
+        "10": 6
+      }
+    ],
+    "singleton_branching_sha256": "5b05068eafe846e214a47a416adec4ac07870fbdca111bc828a7022d83133981",
+    "symbolic_monomial_relation_checks": {
+      "pair_decoration_dimension_810": 340,
+      "four_dimension_135": 340
+    },
+    "higher_determinants": {
+      "pair_trivial": {
+        "order": 270,
+        "degree": 540,
+        "exact_linear_factor_exponents": {
+          "-14": 1,
+          "-8": 42,
+          "-5": 20,
+          "-2": 150,
+          "1": 24,
+          "2": 243,
+          "4": 60
+        },
+        "degree_exhausted": true
+      },
+      "pair_sign": {
+        "order": 270,
+        "degree": 540,
+        "exact_linear_factor_exponents": {
+          "-4": 81,
+          "-2": 250,
+          "1": 24,
+          "4": 165,
+          "7": 20
+        },
+        "degree_exhausted": true
+      },
+      "pair_standard": {
+        "order": 540,
+        "degree": 1080,
+        "exact_linear_factor_exponents": {
+          "-8": 20,
+          "-5": 15,
+          "-4": 324,
+          "1": 466,
+          "4": 240,
+          "7": 15
+        },
+        "degree_exhausted": true
+      },
+      "four_trivial": {
+        "order": 135,
+        "degree": 540,
+        "exact_linear_factor_exponents": {
+          "-8": 1,
+          "-4": 36,
+          "-2": 120,
+          "0": 135,
+          "1": 134,
+          "2": 99,
+          "4": 15
+        },
+        "degree_exhausted": true
+      }
+    },
+    "standard_pair_at_one": {
+      "matrix_nullity": 406,
+      "order_two_jet_nullity": 466
+    }
+  },
+  "e7": {
+    "singleton_bad_set": [
+      -32,
+      -24,
+      -20,
+      -16,
+      -14,
+      -12,
+      -10,
+      -8,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "singleton_full_data_sha256": "a7d87231a70617e09a153b9552a290d6cc1b03f770c657e5725afc4a00b070b4",
+    "pair_branching_sha256": "77a452f3958243279383ece8c4d781b5ea1ace883a635886e45fb5d36694d655",
+    "higher_branching_sha256": "39bb088b983123522c2a231aead94cfc347d2576c8ed4f0610ab228e079721bd",
+    "residual_ranks": [
+      {
+        "module": "pair_sign",
+        "dimension": 945,
+        "delta": -7,
+        "prime": 1009,
+        "rank_mod_prime": 945
+      },
+      {
+        "module": "pair_standard",
+        "dimension": 2835,
+        "delta": -7,
+        "prime": 1009,
+        "rank_mod_prime": 2835
+      },
+      {
+        "module": "four_trivial",
+        "dimension": 945,
+        "delta": -7,
+        "prime": 1009,
+        "rank_mod_prime": 945
+      }
+    ]
+  },
+  "e8": {
+    "singleton_bad_set": [
+      -56,
+      -44,
+      -36,
+      -32,
+      -26,
+      -24,
+      -20,
+      -18,
+      -16,
+      -14,
+      -12,
+      -11,
+      -10,
+      -9,
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -2,
+      -1,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      18,
+      20,
+      22,
+      26,
+      28
+    ],
+    "singleton_fusion_branching_sha256": "f329c4ceb7222628b9038b204db32648b96fd705e8a7b6732ee7d7d0577fcb4c",
+    "pair_branching_sha256": "81c279174477dbc6aeb0351ae9deb2bb877c7b9d15922ae96264affa7fcfe37b",
+    "four_branching_sha256": "31052442f9be6c9f6c133caaf8479a4321dc237a9c6e1289cac9761ec4ac9963",
+    "final_screen": {
+      "singleton_bad_set": [
+        -56,
+        -44,
+        -36,
+        -32,
+        -26,
+        -24,
+        -20,
+        -18,
+        -16,
+        -14,
+        -12,
+        -11,
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -2,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        18,
+        20,
+        22,
+        26,
+        28
+      ],
+      "higher_collision_rows": [
+        {
+          "t": 2,
+          "s": 0,
+          "all_candidates": [
+            -44,
+            -26,
+            -24,
+            -20,
+            -18,
+            -16,
+            -14,
+            -12,
+            -11,
+            -10,
+            -9,
+            -8,
+            -6,
+            -5,
+            -4,
+            -3,
+            -2,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            22
+          ],
+          "outside_singleton": [
+            -3,
+            5
+          ]
+        },
+        {
+          "t": 2,
+          "s": 1,
+          "all_candidates": [
+            -32,
+            -24,
+            -20,
+            -16,
+            -14,
+            -12,
+            -10,
+            -8,
+            -6,
+            -5,
+            -4,
+            -2,
+            1,
+            2,
+            4,
+            6,
+            7,
+            8,
+            10,
+            12,
+            14,
+            16
+          ],
+          "outside_singleton": []
+        },
+        {
+          "t": 4,
+          "s": 0,
+          "all_candidates": [
+            -26,
+            -14,
+            -11,
+            -8,
+            -5,
+            -4,
+            -2,
+            -1,
+            1,
+            3,
+            4,
+            6,
+            7,
+            13
+          ],
+          "outside_singleton": []
+        },
+        {
+          "t": 4,
+          "s": 1,
+          "all_candidates": [
+            -24,
+            -20,
+            -18,
+            -16,
+            -14,
+            -12,
+            -10,
+            -8,
+            -6,
+            -4,
+            -3,
+            -2,
+            1,
+            2,
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            26
+          ],
+          "outside_singleton": [
+            -3,
+            5
+          ]
+        },
+        {
+          "t": 4,
+          "s": 2,
+          "all_candidates": [
+            -20,
+            -14,
+            -10,
+            -8,
+            -5,
+            -4,
+            -2,
+            1,
+            2,
+            4,
+            6,
+            7,
+            10,
+            12,
+            16,
+            22
+          ],
+          "outside_singleton": []
+        },
+        {
+          "t": 8,
+          "s": 0,
+          "all_candidates": [
+            -14,
+            -8,
+            -5,
+            -4,
+            -2,
+            1,
+            2,
+            4,
+            6,
+            7,
+            10,
+            16
+          ],
+          "outside_singleton": []
+        },
+        {
+          "t": 8,
+          "s": 1,
+          "all_candidates": [
+            -8,
+            -4,
+            -2,
+            1,
+            2,
+            4,
+            6,
+            10
+          ],
+          "outside_singleton": []
+        },
+        {
+          "t": 8,
+          "s": 2,
+          "all_candidates": [
+            -4,
+            -2,
+            1,
+            2,
+            4,
+            6
+          ],
+          "outside_singleton": []
+        },
+        {
+          "t": 8,
+          "s": 4,
+          "all_candidates": [
+            -2,
+            1,
+            4
+          ],
+          "outside_singleton": []
+        }
+      ],
+      "unresolved_values": [
+        -3,
+        5
+      ],
+      "proved_nonsemisimple_count": 40,
+      "containing_set": [
+        -56,
+        -44,
+        -36,
+        -32,
+        -26,
+        -24,
+        -20,
+        -18,
+        -16,
+        -14,
+        -12,
+        -11,
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        18,
+        20,
+        22,
+        26,
+        28
+      ]
+    },
+    "formal_relations": {
+      "basis_dimension": 22680,
+      "pairs": 3780,
+      "rays_per_pair": 6,
+      "bridge_cases": 90720,
+      "bridge_ray_agreements": 544320,
+      "cfw_relation_counts": {
+        "single_node": 32,
+        "nonadjacent": 84,
+        "adjacent": 42
+      },
+      "cfw_relations_total": 158,
+      "root_conjugation_identities": 960,
+      "all_passed": true
+    },
+    "projector_certificates_sha256": "0ab2d327ce0866b1a7deeed0d6efebda2ba575e210fdaf7db2f4e0164b7b0807",
+    "residual_projectors": [
+      {
+        "delta_target": -3,
+        "S6_partition": [
+          4,
+          2
+        ],
+        "W_E8_labels": [
+          [
+            2240,
+            10
+          ]
+        ],
+        "Z1_eigenvalue_c0": 18,
+        "a_coeff": 2,
+        "b_coeff": -8,
+        "value_at_delta_target": -5
+      },
+      {
+        "delta_target": 5,
+        "S6_partition": [
+          2,
+          2,
+          1,
+          1
+        ],
+        "W_E8_labels": [
+          [
+            2240,
+            28
+          ]
+        ],
+        "Z1_eigenvalue_c0": -18,
+        "a_coeff": -4,
+        "b_coeff": -32,
+        "value_at_delta_target": -27
+      },
+      {
+        "delta_target": -3,
+        "S6_partition": [
+          3,
+          2,
+          1
+        ],
+        "W_E8_labels": [
+          [
+            2835,
+            14
+          ],
+          [
+            6075,
+            14
+          ]
+        ],
+        "Z1_eigenvalue_c0": 8,
+        "a_coeff": 7,
+        "b_coeff": -8,
+        "value_at_delta_target": -20
+      },
+      {
+        "delta_target": 5,
+        "S6_partition": [
+          3,
+          2,
+          1
+        ],
+        "W_E8_labels": [
+          [
+            2835,
+            22
+          ],
+          [
+            6075,
+            22
+          ]
+        ],
+        "Z1_eigenvalue_c0": -8,
+        "a_coeff": -9,
+        "b_coeff": 8,
+        "value_at_delta_target": -12
+      }
+    ],
+    "multiplicity_one_quadratic_count": 115
+  }
+}

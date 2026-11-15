@@ -1,0 +1,147 @@
+{
+  "F4": {
+    "cell_orders": {
+      "1:0|111": 12,
+      "1:0|21": 24,
+      "1:0|3": 12,
+      "1:111|0": 12,
+      "1:11|1": 36,
+      "1:1|11": 36,
+      "1:1|2": 36,
+      "1:21|0": 24,
+      "1:2|1": 36,
+      "1:3|0": 12,
+      "2:sign": 30,
+      "2:std": 60,
+      "2:triv": 30,
+      "4:triv": 39
+    },
+    "determinant_evaluations": 650,
+    "int64_bound": 55296000,
+    "nongroup_cells": 14,
+    "polynomial_identities": 868,
+    "positive_E6_roots": 36,
+    "relation_evaluations": 6076,
+    "status": "PASS"
+  },
+  "G2": {
+    "contravariance_identities": 12,
+    "models": [
+      {
+        "contravariance_checks": 4,
+        "determinant": "(delta - 1)**2*(delta + 2)",
+        "model": "middle_1",
+        "relation_checks": 15
+      },
+      {
+        "contravariance_checks": 4,
+        "determinant": "(delta - 1)**2*(delta + 2)",
+        "model": "middle_-1",
+        "relation_checks": 15
+      },
+      {
+        "contravariance_checks": 4,
+        "determinant": "delta**6*(delta - 1)**2*(delta + 2)",
+        "model": "minimal",
+        "relation_checks": 15
+      }
+    ],
+    "status": "PASS",
+    "symbolic_relations": 45
+  },
+  "H3": {
+    "bad_t": [
+      -12,
+      -4,
+      -1,
+      0,
+      1,
+      3,
+      4
+    ],
+    "contravariance_identities": 30,
+    "defining_relation_identities": 145,
+    "determinants": [
+      "t**10*(t - 3)**4*(t + 12)",
+      "(t - 4)**6*(t + 1)**4*(t + 4)**5",
+      "(t - 4)**5*(t - 1)**4*(t + 4)**6",
+      "(t - 4)**5*(t - 1)**4*(t + 4)**6",
+      "(t - 1)**4*(t + 4)"
+    ],
+    "dimension_square_sum": 1045,
+    "dimensions": [
+      15,
+      15,
+      15,
+      15,
+      5
+    ],
+    "status": "PASS"
+  },
+  "H4": {
+    "constant_terms": {
+      "chi1": 15,
+      "chi3sum": -5,
+      "chi4": 0,
+      "chi5": 3
+    },
+    "maximal_determinant": "(t - 1)^82 * (t - 4)^25 * (t + 4)^42 * (t + 14)",
+    "reflection_class_sum_offdiagonal_matches": 2640,
+    "relations": {
+      "basepair_normalizer_order": 240,
+      "cfw_choice_paths_checked": 3360,
+      "frames": 75,
+      "full_group_conjugacy_classes": 34,
+      "full_signed_root_group_order": 14400,
+      "maximal_contravariance_entries": 45000,
+      "maximal_relation_columns": 3150,
+      "maximal_relation_identities": 42,
+      "maximal_two_pair_choices_checked": 33750,
+      "normalizer_A5_image_order": 60,
+      "normalizer_A5_kernel_order": 4,
+      "pair_group_ring_contravariance_entries": 28800,
+      "pair_relation_columns": 2520,
+      "pair_relation_identities": 42,
+      "pairs": 60,
+      "status": "PASS"
+    },
+    "spectra": {
+      "chi1": {
+        "-4": 18,
+        "-44": 1,
+        "1": 16,
+        "4": 25
+      },
+      "chi3_each": {
+        "-4": 130,
+        "11": 16,
+        "16": 9,
+        "8": 25
+      },
+      "chi3sum": {
+        "-4": 260,
+        "11": 32,
+        "16": 18,
+        "8": 50
+      },
+      "chi4": {
+        "-11": 25,
+        "-14": 16,
+        "1": 174,
+        "13": 25
+      },
+      "chi5": {
+        "-11": 16,
+        "-16": 18,
+        "-8": 50,
+        "4": 216
+      },
+      "maximal_adjacency": {
+        "-2": 8,
+        "-5": 25,
+        "18": 1,
+        "3": 41
+      }
+    }
+  }
+}

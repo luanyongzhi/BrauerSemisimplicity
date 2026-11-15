@@ -1,0 +1,42 @@
+These files are adapted from the authors' project calculations, not from
+external character-table software. No saved root/operator data are inputs.
+
+Sources (SHA256 of the unmodified project source):
+
+f4_audit_integer_source.py
+6a8f9577445127bfc77be6946444aa4a75b4997ced1a0636b94cafb61c1d257a
+
+verify_f4_polynomials.py
+248551f1f7df30ca07417b9b1cdbd9feafc977774ed23ae2b0683530b2746547
+
+verify_g2_symbolic.py
+51a9deb065e1e6aec337260971b6c6d216f73a235582402ad9b1b870579fac7a
+
+verify_h3.py
+6403e6c799086bb4ab56de0a7d67c274212ab535d1149a1190e9a4c3ccfe44bb
+
+check_h4_relations.py
+db99943968e60af7cc66b350081ff07897a4ffd20aa97239d9f33cc08e930598
+
+check_h4_spectrum.py
+0acab507039b38e80640cc80f708e349604c847f466026a18103f9b615973254
+
+History and adaptations:
+* verify_h3.py: Round9 (preserved in Round17); added 30 exact contravariance
+  identities and a callable entrypoint. The two five-edge final-letter
+  corrections are documented in the source.
+* f4_model.py: roots_data, pmat, signed_rep, make_cells, verify_relations
+  from Round15 audit_integer.py. Unused character/block/radical computations,
+  paths and python-flint import were removed. Root transport is unchanged.
+* verify_f4.py and verify_g2.py: November 14 consolidation checks; removed
+  run metadata and file writes. The F4 determinant normalization includes
+  the coefficient metric det([[2,1],[1,2]])=3.
+* verify_h4_relations.py and verify_h4_spectrum.py: Round13 independent
+  E8 reconstruction, rerun November 14. Removed saved arrays and graph/radical
+  calculations not needed for the paper. Added an explicit exact polynomial
+  check for the maximal determinant. The runner reuses one reconstructed
+  geometry in the relation and spectral verification.
+
+No license notice was present in these project source files. This extraction
+adds no third-party license and does not assign a new license to the authors'
+code. A repository license may be selected by its authors before publication.

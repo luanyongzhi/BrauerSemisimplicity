@@ -1,0 +1,35 @@
+Public package validation, 2026-11-15
+
+Environment: Debian under Windows Subsystem for Linux; SageMath 10.1;
+Python 3.11.1; NumPy 1.23.5; SymPy 1.12.
+
+Procedure: ZIP the supplied files, extract to a new directory, then invoke
+the extracted verify_all.py from outside that directory. No original project
+sources, saved matrix dumps, or historical outputs are available as inputs
+to the verification commands. ADE constructors use disposable scratch space.
+
+Command: sage -python /path/to/extracted/brauer_verification/verify_all.py
+
+Observed output:
+SageMath 10.1 | Python 3.11.1 | NumPy 1.23.5 | SymPy 1.12
+PASS: all supplied file checksums
+Reconstructing E6, E7, E8 ...
+E6: PASS
+E7: PASS
+E8: PASS
+Reconstructing G2, H3, F4, H4 ...
+F4: PASS
+G2: PASS
+H3: PASS
+H4: PASS
+PASS: all selected exact calculations and expected results; 62.715 seconds
+
+Exit status: 0. Supplied files were unchanged. This note was added after the
+run; the mathematical sources and expected results were unchanged. The final
+ZIP and its manifest were then checked against those tested files.
+
+Component coverage and exact-arithmetic methods are in ade/README.md and
+folded/README.txt. Expected mathematical outputs are in ade/expected/results.json
+and folded/expected.json. Use --details to print fresh computed certificates.
+The certificate checks cover finite inputs, not a formal verification of every
+structural proof or cited theorem in the manuscript.

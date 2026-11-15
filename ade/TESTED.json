@@ -1,0 +1,79 @@
+{
+  "tested_date": "2026-11-15",
+  "command": "sage -python ade/run.py",
+  "status": "passed",
+  "environment": {
+    "sage": "10.1",
+    "python": "3.11.1",
+    "numpy": "1.23.5",
+    "sympy": "1.12",
+    "platform": "Debian Linux through WSL",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "total_seconds": 56.054,
+  "runs": [
+    {
+      "script": "e6_spectrum.py",
+      "seconds": 5.605
+    },
+    {
+      "script": "e7_fusion_check.py",
+      "seconds": 0.124
+    },
+    {
+      "script": "e7_pair_branching.py",
+      "seconds": 0.654
+    },
+    {
+      "script": "e7_higher_branching.py",
+      "seconds": 1.813
+    },
+    {
+      "script": "e7_pair_sign.py",
+      "seconds": 1.117
+    },
+    {
+      "script": "e7_pair_standard_sage.py",
+      "seconds": 8.034
+    },
+    {
+      "script": "e7_four_trivial.py",
+      "seconds": 1.956
+    },
+    {
+      "script": "e8_singleton.py",
+      "seconds": 0.235
+    },
+    {
+      "script": "e8_pair_branching.py",
+      "seconds": 0.351
+    },
+    {
+      "script": "e8_four_branching.py",
+      "seconds": 4.281
+    },
+    {
+      "script": "e8_final_screen.py",
+      "seconds": 0.019
+    },
+    {
+      "script": "e8_exact_inputs.py",
+      "seconds": 0.402
+    },
+    {
+      "script": "e8_relations.py",
+      "seconds": 3.226
+    },
+    {
+      "script": "e8_annihilator.py",
+      "seconds": 28.155
+    }
+  ],
+  "assertions_disabled_guard": {
+    "command": "python -O ade/run.py --only e6",
+    "exit_code": 1,
+    "outcome": "Rejected before computations as intended"
+  },
+  "expected_results_sha256": "a094a13995a72606b223cbe0038fee1d7818e75f281a4df5538d30ab1ca617b7",
+  "scope": "All packaged E6/E7/E8 constructors, exact checks and expected comparisons passed. These finite checks accompany, and do not replace, the algebraic proof."
+}
